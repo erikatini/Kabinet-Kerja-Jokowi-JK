@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri14" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/puan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puan Maharani\nLahir di Jakarta,6 September 1973\nPendidikan Terakhir Komunikasi Mass FISIP Universitas Indonesia\nLatar Belakang (Profesi Sebelumnya):\n   Awal kariernya dalam dunia politik dimulai di tahun 2006 saat menjadi anggota DPPKNPI Bidang Luar Negeri. Puan Maharani akhirnya mencalonkan diri sebagai anggota legislatif pada Pemilu 2009 dari Dapil Jawa Tengah V (Surakarta,Sukoharjo, Klaten, dan Boyolali) dan terpilih dengan suara terbanyak kedua di tingkat nasional yaitu 242.504 suara.\n   Ia juga pernah menjabat sebagai Ketua Fraksi PDI Perjuangan di DPR RI periode masa bakti 2009 – 2014. Di DPR, Puan Maharani berada di Komisi VI yang mengawasi BUMN, Perdagangan, Koperasi dan Usaha Kecil Menengah, anggota badan kelengkapan dewan BKSAP (Badan Kerjasama Antar Parlemen) dan juga sebagai Ketua I Fraksi PDI Perjuangan di DPR mengantikan Tjahjo Kumolo.\n   Cucu dari Presiden Pertama RI,Soekarno dan anak dari Presiden ke-5 RI, Megawati Soekarnoputri dari pernikahannya dengan Ketua MPR RI ke-12, Taufiq Kiemas ini, sudah mengenal dunia politik sejak usia sangat muda. Ia merupakan Sarjana Ilmu Komunikasi lulusan Universitas Indonesia dan ia meneruskan tradisi politik keluarga Soekarno.\n   Di dalam internal partai PDI Perjuangan, Puan Maharani dipercaya menjadi Ketua Bidang Politik dan Hubungan Antar Lembaga yang memiliki peran strategis.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

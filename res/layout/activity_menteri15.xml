@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri15" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sofyan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sofyan Djalil\nLahir di Aceh Timur, 23 September 1953\nPendidikan terakhir The Fletcher School of Law and Diplomacy, Tufts University, Medford, Massachusetts, AS, bidang studi International Financial and Capital Market Law and Policy, tahun 1993\nLatar Belakang (Profesi Sebelumnya):\n   Ia adalah Mantan Menteri Negara Badan Usaha Milik Negara Indonesia pada Kabinet Indonesia Bersatu. Sebelumnya dari Oktober 2004 hingga Mei 2007 ia menjabat sebagai Menteri Komunikasi dan Informatika dalam kabinet yang sama.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

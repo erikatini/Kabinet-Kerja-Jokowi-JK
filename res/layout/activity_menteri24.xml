@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri24" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/yohanan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. DR. Yohana Yembise Ph.D\nLahir di Manokwari, 1 Oktober 1958\nPendidikan terakhir Newcastle University 2006\nLatar Belakang (Profesi Sebelumnya):\n   Karier awalnya dimulai saat menjadi asisten dosen di bidang Bahasa dan Seni di Universitas Cenderawasih sejak tahun 1983 hingga 1986. Lalu ia menjadi dosen tetap sejak 1987 hingga sekarang.\n   Pada 14 November 2012, ia dikukuhkan menjadi profesor doktor oleh Rektor Universitas Cenderawasih (Uncen) Jayapura. Selain menjadi dosen, dia pernah memegang beberapa jabatan seperti:\n
+•	Kepala Laboratorium Bahasa Uncen pada tahun 1991\n
+•	Diplomat Applied Linguistic TEFL (Dip. TEFL) dari Regional English Language Centre (RELC), SEAMEO Singapore\n
+•	Ketua tim seleksi guru bahasa Inggris SMP, SMK, SMA di kabupaten Merauke untuk persiapan pengiriman guru bahasa Inggris ke Sunshine Coast University Australia\n
+•	Anggota Joint Selection Team (JST) Australian Development Scholarship beasiswa ADS/USAID tahun 2011\n   Ia juga aktif dalam kegiatan kesenian yang disponsori badan kesenian Daerah Kabupaten Paniai di Nabire sejak 1974-1978 dan pernah menjadi wakil ketua KNPI Kabupaten Paniai tahun 1984. Ia sempat mencalonkan diri menjadi Bupati Biak Numfor di tahun 2013\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

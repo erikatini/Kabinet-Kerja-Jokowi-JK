@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri6" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/anies" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anies Rasyid Baswedan PhD\nLahir di Kuningan, 7 Mei 1969\nPendidikan terakhir Doktoral ilmu politik di Northern Illinois University 1999\nLatar Belakang (Profesi Sebelumnya):\n   Anies Baswedan adalah seorang intelektual dan akademisi. Ia Cucu dari pejuang kemerdekaan bernama Abdurrahman Baswedan. Kariernya menginisiasi gerakan Indonesia Mengajar dan menjadi rektor termuda yang pernah dilantik oleh sebuah perguruan tinggi di Indonesia pada tahun 2007. Saat menjadi rektor Universitas Paramadina pada usia 38 tahun.\n   Ia juga aktif di Yayasan Gerakan Indonesia Mengajar, menempati posisi ketua dan ditahun 2014 ia menjadi Juru Bicara untuk Pasangan Capres-Cawapres Jokowi-Jusuf Kalla (JK).\n"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri11" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bambang" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bambang Brodjonegoro\nLahir di Jakarta,3 Oktober 1966\nPendidikan terakhir Doctoral di University of Illinois Amerika, 1995\nLatar Belakang (Profesi Sebelumnya):\n   Bambang Brodjonegoro adalah Mantan Wakil Menteri Keuangan Republik Indonesia di Kabinet Indonesia Bersatu II.Ia juga aktif dalam berbagai organisasi sosial dan namanya tidak asing dengan banyak Badan Usaha Milik Negara (BUMN) seperti PT. PLN, PT. ANTAM, PT. TELKOM,dll.\nKepakarannya di bidang Ekonomi Pembangunan, khususnya untuk wilayah perkotaan membuat banyak perusahaan serta lembaga pemerintahan memberinya kepercayaan untuk duduk sebagai dewan komisionaris dan atau konsultan independen.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

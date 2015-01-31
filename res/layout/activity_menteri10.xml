@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri10" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/hanif" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hanif Dhakiri\nLahir di Brebes, 1 Maret 1961\nPendidikan terakhir Magister Universitas Indonesia\nLatar Belakang (Profesi Sebelumnya):\n   Ia pernah menjadi anggota DPR RI di periode 2009-2014 dari Fraksi Partai Kebangkitan Bangsa (PKB), daerah pemilihan Jawa Tengah X: Kabupaten Batang, Kabupaten Pekalongan, Kota Pekalongan dan Kabupaten Pemalang. Jabatan terakhirnya adalah Sekjen PKB (hasil muktamar di Surabaya 2014).\n   Hanif juga seorang aktivis dalam organisasi Nahdlatul Ulama (NU), ia pernah mendirikan Jaringan Studi Transformasi Solidaritas Mahasiswa Salatiga (SMS), serta aktif di Pergerakan Mahasiswa Islam Indonesia (PMII).\n   Ia menjadi Ketua Komisariat IAIN Salatiga (1991-1992), Ketua PC PMII Salatiga (1994-1995), Anggota Pleno Koordinator Cabang PMII Jawa Tengah (1995-1996) dan Ketua Lembaga Studi dan Advokasi Buruh (LSAB). Pengurus Besar (PB) PMII (1997-2000). ia lalu dipercaya menjadi Ketua Umum Dewan Koordinasi Nasional Gerakan Pemuda Partai Kebangkitan Bangsa (DKN Garda Bangsa) Periode 2011-2013.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

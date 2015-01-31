@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri7" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sitinurbaya" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siti Nurbaya Bakar\nLahir di Jakarta, 28 Juli 1958\nPendidikan terakhir Doctor IPB join Siegen University Jerman 1998\nLatar Belakang (Profesi Sebelumnya):\n   Ia pernah menduduki berbagai jabatan dan kariernya dimulai pada tahun 1981, di Badan Perencanaan Pembangunan Daerah (Bappeda) Provinsi Lampung dan menempati posisi sebagai:\n
+•	Kasubid Analisis Stastistik\n
+•	Kasi Penelitian Fisik\n
+•	Kasi Pengairan\n
+•	Kasi Tata Ruang\n
+•	Kabid Penelitian\n
+•	Kabid Prasarana Fisik\n
+•	Wakil Ketua Bappeda\n
+•	Kabiro Perencanaan di Departemen Dalam Negeri\n
+•	Pengajar di Kopertis\n
+•	Pelaksana Manajemen di STPDN\n
+•	Sekretaris Jenderal Depdagri\n
+•	Dewan Komisiaris Pusri\n
+•	Ketua Komite Investasi dan Manajemen Resiko Pusri\n   Untuk di bidang politik, Siti menjabat sebagai Sekretaris Jenderal DPD-RI tahun 2006 hingga 2013. Setelah itu ia menjabat sebagai ketua Dewan Pimpinan Pusat (DPP) Partai NasDem.Di masa ini Siti Nurbaya mendapatkan penghargaan Laporan Akutansi Standar Tertinggi dari Menteri Keuangan 2008- 2011 dan Penghargaan dari WTP Laporan Keuangan dari BPK-RI, sejak penilaian awal sebagai Sekjen DPD.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

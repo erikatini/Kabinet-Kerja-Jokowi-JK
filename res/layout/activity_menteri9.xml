@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri9" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/nila" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof. DR. dr. Nila Djuwita F. Moeloek SpM(K)\nLahir di Jakarta, 11 April 1949\nPendidikan terakhir Konsultan Onkologi mata dan Program Doctor Pasca Sarjana di FKUI\nLatar Belakang (Profesi Sebelumnya):\n   Lulusan Fakultas Kedokteran Universitas Indonesia, yang melanjutkan pendidikannya di bidang spesialis mata dan mengikuti program sub-spesialis di International Fellowship di Orbita Centre, di University of Amsterdam,Belanda dan di Kobe University, Jepang.\n   Setelah itu ia melanjutkan pendidikan konsultan Onkologi Mata dan Program Doktor Pasca-Sarjana di FKUI dan kemudian menjadi dokter di Rumah Sakit Cipto Mangunkusumo, Kirana serta menempati posisi ketua umum Dharma Wanita Persatuan Pusat (2004-2009), Ketua Perhimpunan Dokter Spesialis Mata (Perdami), serta Ketua Umum Yayasan Kanker Indonesia (YKI) periode 2011-2016.\n   Namanya bahkan sempat disebut-sebut menjadi calon kuat Menteri Kesehatan pada Kabinet Indonesia Bersatu II setelah mengikuti proses seleksi calon menteri pada 18 Oktober 2009, tapi ia malah ditunjuk oleh presiden Susilo Bambang Yudhoyono menjadi Utusan Khusus Presiden Republik Indonesia untuk Millennium Development Goals. Tugasnya ialah menurunkan kasus HIV-AIDS dan angka kematian ibu dan anak.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

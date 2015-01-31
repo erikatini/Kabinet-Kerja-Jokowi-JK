@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eritrikat.kabinetkerjajokowi_jk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Halaman2"
+            android:label="@string/title_activity_halaman2" >
+        </activity>
+        <activity
+            android:name=".Halaman3"
+            android:label="@string/title_activity_halaman3" >
+        </activity>
+        <activity
+            android:name=".ImageAdapter"
+            android:label="@string/title_activity_image_adapter" >
+        </activity>
+        <activity
+            android:name=".SingleImage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AnakAgung"
+            android:label="@string/title_activity_anak_agung" >
+        </activity>
+        <activity
+            android:name=".Menteri1"
+            android:label="@string/title_activity_menteri1" >
+        </activity>
+        <activity
+            android:name=".Menteri2"
+            android:label="@string/title_activity_menteri2" >
+        </activity>
+        <activity
+            android:name=".Menteri3"
+            android:label="@string/title_activity_menteri3" >
+        </activity>
+        <activity
+            android:name=".Menteri4"
+            android:label="@string/title_activity_menteri4" >
+        </activity>
+        <activity
+            android:name=".Menteri5"
+            android:label="@string/title_activity_menteri5" >
+        </activity>
+        <activity
+            android:name=".Menteri6"
+            android:label="@string/title_activity_menteri6" >
+        </activity>
+        <activity
+            android:name=".Menteri7"
+            android:label="@string/title_activity_menteri7" >
+        </activity>
+        <activity
+            android:name=".Menteri8"
+            android:label="@string/title_activity_menteri8" >
+        </activity>
+        <activity
+            android:name=".Menteri9"
+            android:label="@string/title_activity_menteri9" >
+        </activity>
+        <activity
+            android:name=".Menteri10"
+            android:label="@string/title_activity_menteri10" >
+        </activity>
+        <activity
+            android:name=".Menteri11"
+            android:label="@string/title_activity_menteri11" >
+        </activity>
+        <activity
+            android:name=".Menteri12"
+            android:label="@string/title_activity_menteri12" >
+        </activity>
+        <activity
+            android:name=".Menteri13"
+            android:label="@string/title_activity_menteri13" >
+        </activity>
+        <activity
+            android:name=".Menteri14"
+            android:label="@string/title_activity_menteri14" >
+        </activity>
+        <activity
+            android:name=".Menteri15"
+            android:label="@string/title_activity_menteri15" >
+        </activity>
+        <activity
+            android:name=".Menteri16"
+            android:label="@string/title_activity_menteri16" >
+        </activity>
+        <activity
+            android:name=".Menteri17"
+            android:label="@string/title_activity_menteri17" >
+        </activity>
+        <activity
+            android:name=".Menteri18"
+            android:label="@string/title_activity_menteri18" >
+        </activity>
+        <activity
+            android:name=".Menteri19"
+            android:label="@string/title_activity_menteri19" >
+        </activity>
+        <activity
+            android:name=".Menteri20"
+            android:label="@string/title_activity_menteri20" >
+        </activity>
+        <activity
+            android:name=".Menteri21"
+            android:label="@string/title_activity_menteri21" >
+        </activity>
+        <activity
+            android:name=".Menteri22"
+            android:label="@string/title_activity_menteri22" >
+        </activity>
+        <activity
+            android:name=".Menteri23"
+            android:label="@string/title_activity_menteri23" >
+        </activity>
+        <activity
+            android:name=".Menteri24"
+            android:label="@string/title_activity_menteri24" >
+        </activity>
+        <activity
+            android:name=".Menteri25"
+            android:label="@string/title_activity_menteri25" >
+        </activity>
+        <activity
+            android:name=".Menteri26"
+            android:label="@string/title_activity_menteri26" >
+        </activity>
+        <activity
+            android:name=".Menteri27"
+            android:label="@string/title_activity_menteri27" >
+        </activity>
+        <activity
+            android:name=".Menteri28"
+            android:label="@string/title_activity_menteri28" >
+        </activity>
+        <activity
+            android:name=".Menteri29"
+            android:label="@string/title_activity_menteri29" >
+        </activity>
+        <activity
+            android:name=".Menteri30"
+            android:label="@string/title_activity_menteri30" >
+        </activity>
+        <activity
+            android:name=".Menteri31"
+            android:label="@string/title_activity_menteri31" >
+        </activity>
+        <activity
+            android:name=".Menteri32"
+            android:label="@string/title_activity_menteri32" >
+        </activity>
+        <activity
+            android:name=".Menteri33"
+            android:label="@string/title_activity_menteri33" >
+        </activity>
+        <activity
+            android:name=".Menteri34"
+            android:label="@string/title_activity_menteri34" >
+        </activity>
+    </application>
+
+</manifest>

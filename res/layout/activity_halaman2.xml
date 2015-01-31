@@ -1,0 +1,425 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:onClick="openHlm3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Halaman2" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/halaman22" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:onClick="openHlm3"
+                android:text="Kabinet Kerja adalah kabinet pemerintahan yang dibentuk pada masa kepemimpinan Presiden Joko Widodo dan Wakil Presiden Jusuf Kalla pada tanggal 27 Oktober 2014.\nPembagian menteri sebagai berikut:\n(Untuk mengetahui informasi lebih lanjut, tap pada jabatan masing-masing menteri)"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.55"
+                android:clickable="true"
+                android:onClick="openMenteri1"
+                android:text="1. Menteri Agama"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri2"
+                android:text="2. Menteri Agraria dan Tata Ruang"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri3"
+                android:text="3. Menteri Dalam Negeri"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri4"
+                android:text="4. Menteri Energi dan Sumber Daya Mineral"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri5"
+                android:text="5. Menteri Hukum dan HAM"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri6"
+                android:text="6. Menteri Kebudayaan dan Pendidikan Dasar dan Menengah"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri7"
+                android:text="7. Menteri Kehutanan dan Lingkungan Hidup"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri8"
+                android:text="8. Menteri Kelautan dan Perikanan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri9"
+                android:text="9. Menteri Kesehatan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri10"
+                android:text="10. Menteri Ketenagakerjaan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri11"
+                android:text="11. Menteri Keuangan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri12"
+                android:text="12. Menteri Komunikasi dan Informatika"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri13"
+                android:text="13. Menteri Koordinator Kemaritiman"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri14"
+                android:text="14. Menteri Koordinator Pembangunan Manusia dan Kebudayaan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri15"
+                android:text="15. Menteri Koordinator Perekonomian"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri16"
+                android:text="16. Menteri Koordinator Politik, Hukum dan Keamanan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri17"
+                android:text="17. Menteri Koperasi dan Usaha Kecil dan Menengah"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri18"
+                android:text="18. Menteri Luar Negeri"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri19"
+                android:text="19. Menteri BUMN"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri20"
+                android:text="20. Menteri Pariwisata"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri21"
+                android:text="21. Menteri Pekerjaan Umum dan Perumahan Rakyat"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri22"
+                android:text="22. Menteri Pemberdayaan Aparatur Negara dan Reformasi Birokrasi"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri23"
+                android:text="23. Menteri Pemuda dan Olahraga"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri24"
+                android:text="24. Menteri Peranan Wanita"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri25"
+                android:text="25. Menteri Perdagangan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri26"
+                android:text="26. Menteri Perencanaan Pembangunan Nasional / Kepala Bappenas "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri27"
+                android:text="27. Menteri Perhubungan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri28"
+                android:text="28. Menteri Perindustrian"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri29"
+                android:text="29. Menteri Pertahanan"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri30"
+                android:text="30. Menteri Pertanian"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri31"
+                android:text="31. Menteri Riset dan Teknologi dan Pendidikan Tinggi"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri32"
+                android:text="32. Menteri Sekretaris Negara "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri33"
+                android:text="33. Menteri Sosial"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.82"
+                android:clickable="true"
+                android:onClick="openMenteri34"
+                android:text="34. Menteri Pembangunan Desa Tertinggal dan Transmigrasi"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri16" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tedjo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tedjo Edy Purdjianto\nLahir di Magelang, 20 September 1952\nPendidikan terakhir Akademi Angkatan Laut\nLatar Belakang (Profesi Sebelumnya):\n   Profesinya sebelumnya selama 14 tahun mengabdi di Satuan Udara dan kemudian bertugas di KRI antara lain sebagai:\n
+•	Palaksa KRI Teluk Penyu (513) Satuan Amfibi Armatim\n
+•	Komandan KRI Teluk Lampung (540) Satlinlamil Surabaya\n
+•	Komandan KRI Teluk Semangka (512) Satfib Armatim\n
+•	Komandan KRI Multatuli (561) Satfib Armatim\n
+•	Paban VI Binkuat Sopsal Kasal Mabesal\n
+•	Komandan Satfib Armatim, Asrena Mako Armatim\n
+•	Kapok Sahli A Kasal Bidang Wilnas\n
+•	Komandan Guskamla Armabar, Kepala Staf Koarmatim\n
+•	Wakil Komandan Seskoal\n
+•	Staf Ahli Tingkat III bidang Hubintek Mabes TNI\n
+•	Staf Ahli Manajemen Nasional Lemhanas, Panglima Koarmabar\n
+•	Asisten Perencanaan Kasal\n
+•	Dirjen Perencanaan Pertahanan Dephan\n
+•	Komandan Sesko TNI\n
+•	Serta Kepala Staf Umum TNI\n
+Tedjo Edhy lalu dilantik pada tanggal 1 Juli 2008 oleh Presiden RI, menggantikan Sumardjono sebagai Laksamana TNI.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri3" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/tjahyo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tjahjo Kumolo\n Lahir di Surakarta, 1 Desember 1957\nPendidikan terakhir Lembaga Ketahanan Nasional Jakarta 1994\nLatar Belakang (Profesi Sebelumnya):\n   Seorang politikus yang terpilih menjadi anggota Dewan Perwakilan Rakyat(DPR) Republik Indonesia periode 2009–2014, dari Partai Demokrasi Indonesia Perjuangan (PDI-P), dengan wilayah pemilihan Jawa Tengah I dan sekaligus menjadi Ketua Fraksi PDI-P di DPR RI.\n   Tjahjo kemudian menjadi anggota Komisi I yang membidangi pertahanan luar negeri dan informasi di DPR RI, kemudian ia dipilih oleh Megawati Soekarnoputri sebagai Sekretaris Jendral (Sekjen) DPP Partai Demokrasi Indonesia Perjuangan, untuk periode 2010-2015, yang pada periode sebelumnya sebagai Ketua DPP Bidang Politik PDI-P.\n   Tjahjo pernah tercatat sebagai Ketua Umum KNPI dan pernah menjadi anggota Partai Golongan Karya.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

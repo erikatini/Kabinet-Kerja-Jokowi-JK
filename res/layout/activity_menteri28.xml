@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri28" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/salehhusin" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saleh Husin\nLahir di Rote, 16 September 1963\nPendidikan Terakhir Magister Administrasi Publik, Universitas Krisnadwipayana 2007\nLatar Belakang (Profesi Sebelumnya):\n   Saleh Husin pernah menjadi Wakil sekretaris Dewan Pimpinan Pusat (DPP) dari Partai Hati Nurani Rakyat (HANURA). dalam karirnya ia pernah menempati berapa posisi:\n
+•	Direktur PT Shelbi Pratama (1989)\n	
+•	Komisaris PT Ades Alfindo Putra Setia, Tbk (1993)\n
+•	Anggota DPR RI untuk periode 2009-2014\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

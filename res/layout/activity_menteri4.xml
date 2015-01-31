@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri4" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sudirmansahid" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudirman Said\nLahir di Brebes,16 April 1963\nPendidikan terakhir Master Bidang Administrasi Bisnis dari George Washington University, Amerika Serikat, 1994\n Latar Belakang (Profesi Sebelumnya):\n
+•	Aktivis Anti Korupsi (Pendiri dan Ketua Badan Pelaksana Masyarakat Transparansi Indonesia)\n
+•	Pendiri Indonesia Institute for Corporate Governance (IICG)\n
+•	Penanggung Jawab Sementara (PJS) Rektor Universitas Paramadina\n
+•	Deputi Kepala Badan Pelaksana Rekontruksi dan Rehabilitasi (BPRR)\n
+•	Staf Ahli Direktur Utama PT Pertamina (Persero)\n
+•	Wakil Direktur Utama PT Petrosea\n
+•	Director APEC CEO Summit 2013\n
+•	Direktur Utama PT Pindad\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

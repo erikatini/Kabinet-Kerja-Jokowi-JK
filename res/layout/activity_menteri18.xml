@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri18" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/retno" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retno Lestari Priansari Marsudi\nLahir di Semarang, 27 November 1962\nPendidikan terakhir Master Hukum uni Eropa, di Haagse HogeSchool Belanda\nLatar Belakang (Profesi Sebelumnya):\n
+•	Sekretaris satu bidang ekonomi di Kedutaan Besar Republik Indonesia di Den Haag, Belanda (1997 hingga 2001)\n
+•	Direktur Eropa dan Amerika (2001)\n
+•	Direktur Eropa Barat pada tahun 2003\n
+•	Duta Besar Indonesia untuk Norwegia dan Islandia (pada tahun 2005) dan memperoleh penghargaan Order of Merit dari Raja Norwegia pada Desember 2011, menjadikannya orang Indonesia pertama yang memperoleh penghargaan tersebut\n
+•	Direktur Jenderal Eropa dan Amerika, bertanggung jawab mengawasi hubungan Indonesia dengan 82 negara di Eropa dan Amerika\n
+•	Duta Besar Indonesia untuk Kerajaan Belanda pada tahun 2012\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

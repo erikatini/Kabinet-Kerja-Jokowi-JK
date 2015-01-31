@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri1" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/lukman" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lukman Hakim Saifudin\nLahir di Jakarta, 25 November 1962\nPendidikan terakhir: Sarjana Universitas Islam As-Syafiiyah, Jakarta 1990\nLatar Belakang (Profesi Sebelumnya):\n   Lukman Hakim adalah Menteri Agama di periode pemerintahan Presiden Susilo Bambang Yudhoyono, menggantikan Suryadharma Ali. Ia mulai menjabat sejak tanggal 9 Juni 2014 – 20 Oktober 2014, kemudian ia dilantik kembali dengan posisi yang sama di Kabinet Kerja, sejak 27 oktober 2014.\n   Di masa awal karier politiknya, ia pernah menjadi anggota DPR RI periode 1999-2004, 2004-2009 dan 2009-2014 dari Partai Persatuan Pembangunan mewakili Jawa Tengah dan menjabat Wakil Ketua MPR RI periode 2009-2014. Lukman merupakan tokoh NU yang menjabat sebagai Wakil Sekretaris Pimpinan Pusat Lembaga Kemaslahatan Keluarga NU (LKKNU) periode 1985-1988. Di tahun 1988-1999 Lukman berkiprah di Lajnah Kajian dan Pengembangan Sumberdaya Manusia (Lakpesdam) NU sebagai:
+\n•	Wakil Sekretaris
+\n•	Kepala Bidang Administrasi Umum
+•	Koordinator Program Kajian dan Penelitian
+\n•	Koordinator Program Pendidikan dan Pelatihan
+\n•	Ketua Badan Pengurus periode 1996-1999\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

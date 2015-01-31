@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri34" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/marwan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H. Marwan Ja’far MM, M.Si\nPendidikan terakhir Magister Hukum Universitas Kebangsaan Malaysia 2008\nLatar Belakang (Profesi Sebelumnya):\n   Marwan pernah menjabat sebagai anggota DPR RI dari PKB mewakili Jawa Tengah. Di DPR bertugas untuk Komisi V yang menangani Kementerian Pekerjaan Umum Indonesia, Kementerian Perumahan Rakyat Indonesia,Kementerian Perhubungan Indonesia dan Badan SAR Nasional.\n   Marwan Ja’far merupakan Ketua Fraksi PKB DPR. Ia juga pernah menjabat sebagai sekretaris dari fraksi partai PKB dan menjadi Wakil Ketua Lembaga Perekonomian PBNU. Ia mempunyai gagasan cemerlang tentang pemberdayaan ekonomi kerakyatan. Saat menjadi anggota DPR, Marwan sangat vokal memperjuangkan produk kebijakan yang bersinggungan langsung dengan kepentingan warga NU.\n   Ia sempat dijagokan menjadi calon gubernur Jateng 2013 serta dianggap sebagai sosok yang layak karena merupakan kader pesantren dan Nahdlatul Ulama (NU). Marwan yang juga aktif sebagai mantan Ketua Pergerakan Mahasiswa Islam Indonesia (PMII), Daerah Istimewa Yogyakarta (DIY) tergolong loyal dan komitmen terhadap perjuangan pesantren dan NU.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+      
+

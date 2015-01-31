@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri2" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ferry" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ferry Musyidan Baldan\nLahir di Jakarta, 16 Juni 1961\nPendidikan terakhir Sarjana FISIP UNPAD Bandung 1988s\nLatar Belakang (Profesi Sebelumnya):\n   Ia pernah menjabat sebagai Ketua Umum Badko, Jawa Barat (1988-1990) dan menduduki jabatan Ketua Umum PB HMI periode 1990-1992. Pada Tahun 1992 menjadi anggota Golongan Karya (Golkar), kemudian terpilih menjadi anggota MPR RI untuk periode 1992-1997, mewakili organisasi pemuda/mahasiswa.\n   Ferry juga pernah menjadi Sekjen DPP Angkatan Muda Pembaharuan Indonesia(AMPI), untuk periode 1998-2003 dan terpilih sebagai Ketua DPP Kosgoro (1994-1999). Di tahun 1999, ia terpilih kembali menjadi anggota DPR RI, periode 1999-2004 dan terpilih menjadi Wakil Ketua Komisi II serta terlibat dalam penyusunan UU yang dinilai pengamat sebagai landasan menuju Indonesia demokratis, yakni UU No 22/1999 tentang Otonomi Daerah, UU No 25/1999, tentang Perimbangan Keuangan Pusat dan Daerah dan Pansus tiga UU Bidang Politik, khususnya UU Parpol dengan Ferry sebagai Ketua Pansus\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

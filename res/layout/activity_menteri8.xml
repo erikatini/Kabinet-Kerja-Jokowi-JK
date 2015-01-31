@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri8" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/susi" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Susi Pudjiastuti\nLahir di Pangandaran,15 Januari 1965\nPendidikan Terakhir tidak tamat SMA\nLatar Belakang (Profesi Sebelumnya):\n   Seorang Pengusaha, pemilik sekaligus Presdir PT ASI Pudjiastuti Marine Product, yang mengeksportir hasil-hasil perikanan. Susi melanjutkan bisnis di penerbangan Susi Air hingga awal tahun 2012, Susi Air dan mengoperasikan 50 pesawat dengan berbagai tipe seperti 32 Cessna Grand Caravan, 9 Pilatus PC-6 Porter dan 3 Piaggio P180 Avanti. Susi Air mempekerjakan 180 pilot, dengan 175 yang diantaranya pilot asing.\n   Pada tahun 2012 Susi Air menerima pendapatan Rp.300 miliar, melayani 200 penerbangan perintis. Cessna Caravan milik Susi adalah pesawat pertama yang berhasil mencapai lokasi bencana Tsunami Aceh, untuk mendistribusikan bantuan kepada para korban yang berada di daerah terisolasi.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kabinet Kerja Jokowi-JK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_halaman2">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_halaman3">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_image_adapter">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_single_item_view">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_anak_agung">Kabinet Kerja Jokowi-JK</string>
+
+    <string-array name="detail">
+        <item>(Lahir: di Jakarta. Tanggal: 25 November 1962. Umur 51 tahun)
+Latar Belakang (Profesi Sebelumnya):
+Lukman Hakim adalah Menteri Agama diperiode pemerintahan Presiden Susilo Bambang Yudhoyono, menggantikan Suryadharma Ali. ia mulai menjabat sejak tanggal 9 Juni 2014 – 20 Oktober 2014, kemudian ia dilantik kembali dengan posisi yang sama dikabinet kerja, sejak 27 oktober 2014. dimasa awal karir politiknya, ia pernah menjadi anggota DPR RI periode 1999-2004, 2004-2009 dan2009-2014 dari Partai Persatuan Pembangunan mewakili Jawa Tengah dan menjabat Wakil Ketua MPR RI periode 2009-2014. Lukman merupakan tokoh NU yang menjabat sebagai Wakil Sekretaris Pimpinan Pusat Lembaga Kemaslahatan Keluarga NU (LKKNU) periode 1985-1988. ditahun 1988-1999 Lukman berkiprah di Lajnah Kajian dan Pengembangan Sumberdaya Manusia (Lakpesdam) NU sebagai:
+•	Wakil Sekretaris
+•	Kepala Bidang Administrasi Umum
+•	Koordinator Program Kajian dan Penelitian
+•	Koordinator Program Pendidikan dan Pelatihan
+•	hingga menjadi Ketua Badan Pengurus periode 1996-1999.</item>
+        <item> (Lahir: di Jakarta. Tanggal: 16 Juni 1961. Umur: 53 tahun)
+Latar Belakang (Profesi Sebelumnya):
+Ia pernah menjabat sebagai Ketua Umum Badko, Jawa Barat (1988-1990) dan menduduki jabatan Ketua Umum PB HMI periode 1990-1992. pada Tahun 1992 menjadi anggota Golongan Karya (Golkar), kemudian terpilih menjadi anggotaMPR RI untuk periode 1992-1997, mewakili organisasi pemuda/mahasiswa. Ferry juga pernah menjadi Sekjen DPP Angkatan Muda Pembaharuan Indonesia(AMPI), untuk periode 1998-2003 dan terpilih sebagai Ketua DPP Kosgoro (1994-1999). ditahun 1999, ia terpilih kembali menjadi anggota DPR RI, di periode 1999 -2004 dan terpilih Wakil Ketua Komisi II dan terlibat dalam penyusunan UU yang dinilai pengamat sebagai landasan menuju Indonesia demokratis, yakni (UU No 22/1999 tentang Otonomi Daerah, UU No 25/1999, tentang Perimbangan Keuangan Pusat dan Daerah dan Pansus tiga UU Bidang Politik). khususnya UU Parpol dengan Ferry sebagai Ketua Pansus.</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="title_activity_menteri1">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri2">Kebinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri3">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri4">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri5">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri6">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri7">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri8">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri9">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri10">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri11">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri12">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri13">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri14">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri15">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri16">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri17">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri18">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri19">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri20">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri21">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri22">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri23">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri24">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri25">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri26">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri27">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri28">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri29">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri30">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri31">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri32">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri33">Kabinet Kerja Jokowi-JK</string>
+    <string name="title_activity_menteri34">Kabinet Kerja Jokowi-JK</string>
+
+</resources>

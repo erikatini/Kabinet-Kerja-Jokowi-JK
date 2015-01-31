@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri23" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/imam" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H. Imam Nahrawi S.Ag\nLahir di Bangkalan, 8 Juli 1973\nPendidikan Terakhir IAIN Sunan Ampel Surabaya 1998\nLatar Belakang (Profesi Sebelumnya):\n   Ia pernah menempati jabatan sebagai Sekretaris jendral (Sekjen) DPP PKB, anggota DPR, sekaligus Direktur intervensi Surabaya dan CV. Alhidayah Surabaya. Imam juga pernah menjabat sebagai ketua PMII Jatim 1997 dan Ketua Umum DKN Garda Bangsa pada 2002.\n   Ia memiliki gagasan mengembalikan peran politik sipil secara partisipatif demi terwujudnya aspirasi rakyat reformatif, mengembalikan citra lembaga dan pribadi legislatif sebagai wakil rakyat yang hakiki.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

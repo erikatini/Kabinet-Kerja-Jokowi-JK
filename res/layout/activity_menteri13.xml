@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri13" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/indroyono" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indroyono Soesilo\nLahir di Bandung, 27 Maret 1955\nPendidikan terakhir di Geologic Remote Sensing dari Universitas Iowa, AS, 1987\nLatar Belakang (Profesi Sebelumnya):\n
+•	Kepala Sub Direktorat Teknologi Inventarisasi Sumber Daya Alam (TISDA) Matra Dirgantara BPPT 1992 hingga 1995\n
+•	Direktur Direktur Inventarisasi Sumberdaya Alam (Tisda) BPPT 1993 hingga 1997\n
+•	Dirjen Penyerasian Riset dan Eksplorasi Laut di Departemen Kelautan dan Perikanan, pada tahun 1999\n
+•	Anggota Panitia Tetap Dewan Kelautan Nasional Departemen Kelautan dan Perikanan 1997\n
+•	Deputi Ketua BPPT Bidang Pengembangan Kekayaan Alam 1997 hingga 1998\n
+•	Deputi Kepala BPPT Bidang Teknologi Pengembangan Sumberdaya Alam pada 1998\n
+•	Kepala Badan Riset Kelautan dan Perikanan/BRKP\n
+•	Sesmenkokesra mulai 2008 hingga 2011\n
+•	Director of the Fisheries and Aquaculture Resources Use and Conservation Division, FAO , PBB, sejak tahun 2012\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

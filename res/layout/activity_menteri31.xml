@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri31" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/m" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DR. M. Nasir\nLahir di Ngawi, 27 Juni 1960\nPendidikan terakhir Doktoral Universitas Sains Malaysia\nLatar Belakang (Profesi Sebelumnya):\n   Lulusan S1 Universitas Diponegoro, S2 Universitas Gadjah Mada dan S3 Universiti Sains Malaysia ini pernah menjadi Pembantu Rektor II Undip, Dekan Fakultas Ekonomika dan Bisnis Undip untuk periode 2010-2014 dan Rektor Universitas Diponegoro periode 2014–2018. Nasir juga menyandang Guru besar dalam bidang Behavioral Accounting dan Management Accounting.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+      
+

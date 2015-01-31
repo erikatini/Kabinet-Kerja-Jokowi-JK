@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri26" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/andrinof" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andrianof Chaniago\nLahir di Padang, 3 November 1962\nPendidikan terakhir Magister Perencanaan dan Kebijakan Publik Fakultas Ekonomi Universitas Indonesia\n Latar Belakang (Profesi Sebelumnya):\n   Seorang akademisi, peneliti dan pengamat kebijakan publik juga Ketua Umum Perhimpunan Survei Opini Publik Indonesia, Pendiri dan sekaligus Direktur Eksekutif Cirus Surveyors Group.\n   Ia merupakan penggagas Visi Indonesia 2033, yang menawarkan konsep pembangunan Indonesia, menuju negara maju tahun 2033 dan ia pernah menjadi dosen Pascasarjana FISIP Universitas Indonesia.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

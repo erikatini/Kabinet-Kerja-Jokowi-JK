@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri5" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/yasona" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yasonna H. Laoly\nLahir di Sorkam, 27 Mei 1953\nPendidikan terakhir Doctor di North Caroline University, 1994\nLatar Belakang (Profesi Sebelumnya):\n   Karier awalnya sebagai seorang Pengacara dan Penasehat Hukum 1978-1983, kemudian menjadi pembantu dekan dari Fakultas Hukum Universitas HKBP Nommensen pada kurun 1980-1983 dan menjadi Dekan Fakultas Hukum Universitas HKBP Nommensen (1998-1999) dan peneliti di NCSU pada tahun 1992-1994.\n   Ia lalu menjadi Asisten Riset Departemen Sosiologi and Antropologi di NCSU, sejak tahun 2000 hingga saat ini. Yasonna kini masih menjadi dosen dan dikarir politik pernah menjabat sebagai:\n     
+•	Sekretaris BKG PGI Sumut-Aceh dan Ketua Umum Mahasiswa Nias\n
+•	Wakil Bendahara KNPI Medan dan Ketua Umum Kesatuan Mahasiswa Nias\n
+•	Badiklatda PDI-P Sumut (2002-2005)\n
+•	Wakil Ketua DPD PDI-P Sumut (2000-2005)\n
+•	Anggota DPRD Sumut untuk periode 1999-2004 dari Partai PDI Perjuangan\n
+•	Anggota DPR RI mewakili PDI Perjuangan dari wilayah Sumatera Utara I\n
+•	Tergabung dalam Komisi II dalam Badan Anggaran DPR RI, MPR RI\n
+•	Sekretaris Fraksi dipartai PDI Perjuangan\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

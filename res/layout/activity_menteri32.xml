@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.eritrikat.kabinetkerjajokowi_jk.Menteri32" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/praktino" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Praktikno\nLahir di Bojonegoro, 13 Februari 1962\nPendidikan terakhir Jurusan Political Science Flinder University Australia (1997)\n Latar Belakang (Profesi Sebelumnya):\n   Pratikno pernah menjabat sebagai dekan Fakultas Ilmu Sosial dan Politik UGM pada tahun 2009 dan menjabat sebagai rektor Universitas Gadjah Mada yang ke 14, sejak 27 Oktober 2014.\n   Ia juga mendapatkan kepercayaan dari KPU (Komisi Pemilihan Umum), menjadi salah satu pemandu Debat Calon Presiden ditahun 2009.\n"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+      
+
